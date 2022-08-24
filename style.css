@@ -45,6 +45,26 @@
 .color-bg {
   /* position: relative; */
 }
+.card-num-wrapper {
+  height: 46%;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+}
+.card-num {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-content: center;
+  height: 47%;
+  padding: 10px;
+}
+.num {
+  padding: 0 15px;
+}
 .back {
   background-image: url("./images/bg-card-back.png");
   width: 100%;
@@ -140,4 +160,20 @@ input {
 }
 label {
   padding: 10px 0;
+}
+.card-name-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+}
+.cvc-num {
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  margin: 28px 0;
+  color: white;
+  padding-right: 10px;
 }

@@ -13,30 +13,86 @@
         <div class="color-bg">
           <img src="./images/bg-main-desktop.png" alt="" class="gray-img" />
           <div class="card-wrapper">
-            <div class="front"></div>
-            <div class="back"></div>
+            <div class="front">
+              <div class="img-wrapper">
+                <!-- <img src="" alt=""> -->
+                <svg
+                  width="84"
+                  height="47"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <ellipse
+                    cx="21.478"
+                    cy="21.5"
+                    rx="21.478"
+                    ry="21.5"
+                    fill="#fff"
+                  />
+                  <path
+                    d="M83.5 23.5c0 5.565-4.507 10.075-10.065 10.075-5.559 0-10.065-4.51-10.065-10.075 0-5.565 4.506-10.075 10.065-10.075 5.558 0 10.065 4.51 10.065 10.075Z"
+                    stroke="#fff"
+                  />
+                </svg>
+              </div>
+              <div class="card-num-wrapper">
+                <div class="card-num">
+                  <div id="num1" class="num">5546</div>
+                  <div id="num2" class="num">343</div>
+                  <div id="num3" class="num">234</div>
+                  <div id="num4" class="num">123</div>
+                </div>
+              </div>
+              <div class="card-name-wrapper">
+                <div class="name-wrapper">nwachukwu goodness</div>
+                <div class="dates">
+                  <span>00</span>/
+                  <span>00</span>
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <div class="cvc-num">
+                <span>000</span>
+              </div>
+            </div>
           </div>
         </div>
         <div class="white-bg">
           <div class="form-container">
             <div class="input-control">
               <label for="card holder name">CARD NAME</label>
-              <input type="text" />
+              <input
+                type="text"
+                placeholder="e.g nwachukwu goodness"
+                class="input-name"
+              />
             </div>
             <div class="input-control">
               <label for="card holder name">CARD NUMBER</label>
-              <input type="text" />
+              <input
+                type="text"
+                placeholder="e.g 2344 5756 3645 8699"
+                class="input-number"
+              />
             </div>
             <div class="mo-year">
               <div class="mm-yy">
                 <label for="">EXPIRATION DATE</label>
                 <div class="mm-input">
-                  <input type="text" name="" id="" value="MM" class="month" />
-                  <input type="text" value="YY" class="year" />
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    value="MM"
+                    class="month"
+                    placeholder="mm"
+                  />
+                  <input type="text" value="YY" class="year" placeholder="yy" />
                 </div>
               </div>
               <div class="cv-wraper">
-                <label for="card holder name">CVV</label>
+                <label for="card holder name">CVC</label>
                 <input type="text" class="cvv" />
               </div>
             </div>
@@ -45,5 +101,6 @@
         </div>
       </div>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
