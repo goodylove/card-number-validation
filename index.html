@@ -37,23 +37,23 @@
               </div>
               <div class="card-num-wrapper">
                 <div class="card-num">
-                  <div id="num1" class="num">5546</div>
-                  <div id="num2" class="num">343</div>
-                  <div id="num3" class="num">234</div>
-                  <div id="num4" class="num">123</div>
+                  <p id="num1" class="num" textlength="4"></p>
+                  <p id="num2" class="num" textlength="4"></p>
+                  <p id="num3" class="num" textlength="4"></p>
+                  <p id="num4" class="num" textlength="4"></p>
                 </div>
               </div>
               <div class="card-name-wrapper">
                 <div class="name-wrapper">nwachukwu goodness</div>
                 <div class="dates">
-                  <span>00</span>/
-                  <span>00</span>
+                  <span class="month-display">00</span>/
+                  <span class="year-display">00</span>
                 </div>
               </div>
             </div>
             <div class="back">
               <div class="cvc-num">
-                <span>000</span>
+                <span class="cvv-display">000</span>
               </div>
             </div>
           </div>
@@ -70,11 +70,32 @@
             </div>
             <div class="input-control">
               <label for="card holder name">CARD NUMBER</label>
-              <input
-                type="text"
-                placeholder="e.g 2344 5756 3645 8699"
-                class="input-number"
-              />
+              <div class="input-num-wraper">
+                <input
+                  type="text"
+                  id="number1"
+                  class="input-number"
+                  maxlength="4"
+                />
+                <input
+                  type="text"
+                  id="number2"
+                  class="input-number"
+                  maxlength="4"
+                />
+                <input
+                  type="text"
+                  id="number3"
+                  class="input-number"
+                  maxlength="4"
+                />
+                <input
+                  type="text"
+                  id="number4"
+                  class="input-number"
+                  maxlength="4"
+                />
+              </div>
             </div>
             <div class="mo-year">
               <div class="mm-yy">
@@ -84,16 +105,23 @@
                     type="text"
                     name=""
                     id=""
+                    maxlength="2"
                     value="MM"
                     class="month"
                     placeholder="mm"
                   />
-                  <input type="text" value="YY" class="year" placeholder="yy" />
+                  <input
+                    type="text"
+                    value="YY"
+                    class="year"
+                    maxlength="4"
+                    placeholder="yy"
+                  />
                 </div>
               </div>
               <div class="cv-wraper">
                 <label for="card holder name">CVC</label>
-                <input type="text" class="cvv" />
+                <input type="text" class="cvv" maxlength="3" />
               </div>
             </div>
             <input type="button" name="" id="btn" value="submit" />

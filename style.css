@@ -65,6 +65,11 @@
 .num {
   padding: 0 15px;
 }
+.input-name {
+  width: 95%;
+  height: 50px;
+  border-radius: 5px;
+}
 .back {
   background-image: url("./images/bg-card-back.png");
   width: 100%;
@@ -95,6 +100,20 @@
   justify-content: center;
   align-items: center;
 }
+
+.input-num-wraper {
+  width: 96%;
+  display: flex;
+  padding: 4px 1px;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-number {
+  width: 97px;
+  height: 42px;
+  border-radius: 5px;
+  text-align: center;
+}
 .input-control {
   display: flex;
   flex-direction: column;
@@ -102,12 +121,12 @@
 .form-container {
   width: 65%;
 }
-.input-control input {
+/* .input-control input {
   width: 96%;
   height: 50px;
   border-radius: 5px;
   padding: 20px;
-}
+} */
 .mo-year {
   display: flex;
   justify-content: space-between;
@@ -165,7 +184,7 @@ label {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 20px;
+  font-size: 17px;
   color: #fff;
   padding: 20px;
 }
