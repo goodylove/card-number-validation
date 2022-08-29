@@ -46,9 +46,7 @@
 .error {
   color: red;
 }
-.color-bg {
-  /* position: relative; */
-}
+
 .card-num-wrapper {
   height: 46%;
   display: flex;
