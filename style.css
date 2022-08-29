@@ -43,6 +43,9 @@
   left: 78px;
   /* right: 85%; */
 }
+.error {
+  color: red;
+}
 .color-bg {
   /* position: relative; */
 }
