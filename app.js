@@ -17,7 +17,7 @@ let monthDisplay = document.querySelector(".month-display");
 let cvvDisplay = document.querySelector(".cvv-display");
 let cvvInput = document.querySelector(".cvv");
 let allInput = document.querySelectorAll("input");
-console.log(allInput);
+
 let cardNum = [];
 let isCardNumValid;
 let btn = document.getElementById("btn");
@@ -144,7 +144,12 @@ function getCardInput() {
 
 btn.addEventListener("click", (e) => {
   e.preventDefault();
-  // if(){
-
-  // }
+  allInput.forEach((input) => {
+    if (input.value === "") {
+      window.location.href = "";
+      alert("please fill the boxes");
+    } else if (isCardNumValid && input.value) {
+      window.location.href = "./succe.html";
+    }
+  });
 });
