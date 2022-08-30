@@ -102,6 +102,11 @@
   justify-content: center;
   align-items: center;
 }
+.img-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .input-num-wraper {
   width: 96%;
@@ -146,7 +151,7 @@
   border-radius: 5px;
 }
 input {
-  padding: 2px;
+  padding: 5px;
   outline: none;
   border: 1px solid gray;
 }
@@ -173,6 +178,8 @@ input {
   border-radius: 7px;
   background-color: black;
   color: #fff;
+  outline: none;
+  border: 1px solid black;
 }
 label {
   padding: 10px 0;

@@ -16,8 +16,11 @@ let yearDisplay = document.querySelector(".year-display");
 let monthDisplay = document.querySelector(".month-display");
 let cvvDisplay = document.querySelector(".cvv-display");
 let cvvInput = document.querySelector(".cvv");
+let allInput = document.querySelectorAll("input");
+console.log(allInput);
 let cardNum = [];
 let isCardNumValid;
+let btn = document.getElementById("btn");
 
 function isInputValid() {
   allCardInputNum.forEach((input) => {
@@ -138,3 +141,10 @@ function getCardInput() {
   }
   cardNum = [];
 }
+
+btn.addEventListener("click", (e) => {
+  e.preventDefault();
+  // if(){
+
+  // }
+});
